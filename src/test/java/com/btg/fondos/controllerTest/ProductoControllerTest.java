@@ -1,9 +1,9 @@
 package com.btg.fondos.controllerTest;
 
-import com.btg.fondos.controllers.ProductoController;
-import com.btg.fondos.exceptions.ProductoNotFoundException;
-import com.btg.fondos.services.ProductosServices;
-import com.btg.fondos.models.Producto;
+import com.btg.fondos.infrastructure.adapter.in.ProductoController;
+import com.btg.fondos.domain.exceptions.ProductoNotFoundException;
+import com.btg.fondos.application.services.ProductosServices;
+import com.btg.fondos.domain.models.Producto;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;

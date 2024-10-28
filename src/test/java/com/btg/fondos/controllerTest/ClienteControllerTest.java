@@ -1,10 +1,10 @@
 package com.btg.fondos.controllerTest;
 
 
-import com.btg.fondos.controllers.ClienteController;
-import com.btg.fondos.exceptions.ClienteNotFoundException;
-import com.btg.fondos.models.Cliente;
-import com.btg.fondos.services.ClientesServices;
+import com.btg.fondos.infrastructure.adapter.in.ClienteController;
+import com.btg.fondos.domain.exceptions.ClienteNotFoundException;
+import com.btg.fondos.domain.models.Cliente;
+import com.btg.fondos.application.services.ClientesServices;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

@@ -1,18 +1,16 @@
 package com.btg.fondos.controllerTest;
 
-import com.btg.fondos.controllers.ClienteController;
-import com.btg.fondos.controllers.ClienteProductosController;
-import com.btg.fondos.exceptions.ClienteNotFoundException;
-import com.btg.fondos.models.Cliente;
-import com.btg.fondos.models.ClienteProducto;
-import com.btg.fondos.services.ClienteProductosServices;
+import com.btg.fondos.infrastructure.adapter.in.ClienteController;
+import com.btg.fondos.infrastructure.adapter.in.ClienteProductosController;
+import com.btg.fondos.domain.exceptions.ClienteNotFoundException;
+import com.btg.fondos.domain.models.Cliente;
+import com.btg.fondos.domain.models.ClienteProducto;
+import com.btg.fondos.application.services.ClienteProductosServices;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 
 import java.util.Arrays;
 import java.util.List;

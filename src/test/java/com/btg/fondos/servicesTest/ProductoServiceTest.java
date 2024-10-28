@@ -1,9 +1,9 @@
 package com.btg.fondos.servicesTest;
 
-import com.btg.fondos.exceptions.ProductoNotFoundException;
-import com.btg.fondos.models.Producto;
-import com.btg.fondos.repository.ProductoRepository;
-import com.btg.fondos.services.ProductosServices;
+import com.btg.fondos.domain.exceptions.ProductoNotFoundException;
+import com.btg.fondos.domain.models.Producto;
+import com.btg.fondos.domain.port.outbound.ProductoRepository;
+import com.btg.fondos.application.services.ProductosServices;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

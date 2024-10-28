@@ -1,11 +1,10 @@
 package com.btg.fondos.controllerTest;
 
-import com.btg.fondos.controllers.TransaccionesController;
-import com.btg.fondos.dto.TransaccionDTO;
-import com.btg.fondos.exceptions.TransaccionesNotFoundException;
-import com.btg.fondos.models.ClienteProducto;
-import com.btg.fondos.models.Transaccion;
-import com.btg.fondos.services.TransaccionesServices;
+import com.btg.fondos.infrastructure.adapter.in.TransaccionesController;
+import com.btg.fondos.domain.exceptions.TransaccionesNotFoundException;
+import com.btg.fondos.domain.models.ClienteProducto;
+import com.btg.fondos.domain.models.Transaccion;
+import com.btg.fondos.application.services.TransaccionesServices;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
